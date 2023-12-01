@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 
 let dbConnection;
 let uri =
-  "mongodb+srv://haydenmshelley:test1234@cluster0.fvyll82.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://haydenmshelley:@bookstore.ic2sc8j.mongodb.net/?retryWrites=true&w=majority";
 
 module.exports = {
   connectToDb: (cb) => {
